@@ -16,4 +16,11 @@ func main() {
 	router.Run()
 
 	// pass parameters by URL
-}
+	router.GET("/user/:name", func(c *gin.Context) {
+		name := c.Param("name")
+		c.String(http.StatusOK, "Hello %s", name)
+})
+
+// In this case, by sending a string to the address above (user/:name/), which replaces our name, which is as follows
+// /user/:name
+// /user/Hadi
