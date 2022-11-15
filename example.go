@@ -2,7 +2,7 @@ package main
 
 import "github.com/gin-gonic/gin"
 
-func main() {
+func testing() {
 	// using server
 	r := gin.Default()
 	// testing
