@@ -1,1 +1,1 @@
-This formwork can recover if it crashes during an HTTP request. This way your server will always be available
+This framework can recover if it crashes during an HTTP request. This way your server will always be available
